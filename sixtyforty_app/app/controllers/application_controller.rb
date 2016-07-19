@@ -7,5 +7,9 @@ class ApplicationController < ActionController::Base
       render :index
     end
 
+    def about
+      render :about
+    end
+
   protect_from_forgery with: :exception
 end
