@@ -3,8 +3,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
 
 
-    def hello
-      render html: "hello, world!"
+    def index
+      render :index
     end
 
   protect_from_forgery with: :exception
