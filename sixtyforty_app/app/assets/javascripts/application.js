@@ -2,6 +2,12 @@
 
   console.log('script loaded')
 
+      $(document).ready(function(){
+        console.log("jquery loaded")
+      $('.parallax').parallax();
+    });
+
+
 })();
 
 // This is a manifest file that'll be compiled into application.js, which will include all the files

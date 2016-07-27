@@ -5,6 +5,8 @@
   <%= stylesheet_link_tag "application.css" %>
   <%= stylesheet_link_tag "materialize.css" %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag "jquery", "application" %>
+  <%= javascript_include_tag "materialize", "application" %>
   <%= csrf_meta_tags %>
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,900' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
@@ -23,7 +25,6 @@
       <div id="wordjob" class="titleText">Why Can't I Get a Job?</div>
     </div>
 </div>
-
 
 
 <%= yield %>

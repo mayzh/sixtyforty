@@ -11,4 +11,7 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w( materialize.css )
 Rails.application.config.assets.precompile += %w( materialize.min.js )
+Rails.application.config.assets.precompile += %w( boardroom.jpg )
+Rails.application.config.assets.precompile += %w( jquery.js )
+Rails.application.config.assets.precompile += %w( materialize.js )
 
