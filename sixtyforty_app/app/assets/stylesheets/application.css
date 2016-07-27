@@ -1,7 +1,56 @@
+#banner {
+  margin-top: 0px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
 #thenav {
-  height:150px;
+  height:250px;
   color: white;
-  background-color: black;
+  background-color: #2f3238;
+  font-family: "Roboto-regular";
+  box-shadow: 0px 2px 2px 1px black;
+}
+
+.titlerow{
+  text-align: center;
+}
+
+.titleText {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 40px;
+}
+
+#wordif {
+  color: #535154;
+}
+
+#wordsixty {
+  color: #D94F5C;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+#wordnew {
+  color: #535154;
+}
+
+#wordforty {
+  color: #D94F5C;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+#wordjob {
+  color: white;
+  font-family: 'Courgette', cursive;
+  font-size: 48px;
+
+}
+
+#thefooter{
+  background-color: #2f3238;
 }
 
 /*
