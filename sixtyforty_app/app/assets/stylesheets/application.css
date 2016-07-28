@@ -5,7 +5,7 @@
 }
 
 #thenav {
-  height:250px;
+  height:300px;
   color: white;
   background-color: #2f3238;
   font-family: "Roboto-regular";
@@ -27,7 +27,7 @@
 }
 
 #wordsixty {
-  color: #D94F5C;
+  color: #F9F99A;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
 }
@@ -37,7 +37,7 @@
 }
 
 #wordforty {
-  color: #D94F5C;
+  color: #F9F99A;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
 }
@@ -46,11 +46,46 @@
   color: white;
   font-family: 'Courgette', cursive;
   font-size: 48px;
+}
 
+#titleSplit{
+  width: 300px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+#subtitle{
+  margin-left: auto;
+  margin-right: auto;
+  color: #535154;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 #thefooter{
   background-color: #2f3238;
+}
+
+#indexMain{
+  height: 500px;
+  background-color: #2f3238;
+  color: #535154;
+  text-align: center;
+  border-top: black 1px;
+  border-bottom: black 1px;
+}
+
+#mainHeading{
+  margin-top: 0px;
+  padding-top: 80px;
+  color: #535154;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 20%;
+  margin-right:20%;
 }
 
 
