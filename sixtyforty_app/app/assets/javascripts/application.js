@@ -1,11 +1,14 @@
 (function(){
 
-  console.log('script loaded')
+console.log('script loaded')
 
-      $(document).ready(function(){
-        console.log("jquery loaded")
-      $('.parallax').parallax();
-    });
+/////////////parallax
+$(document).ready(function(){
+  console.log("jquery loaded")
+  $('.parallax').parallax();
+});
+
+///////////scrollfire
 
 
 })();
